@@ -34,6 +34,10 @@
 
   "devDependencies": {
 
+    "@tanstack/router-devtools": "^1.65.0",
+
+    "@tanstack/router-plugin": "^1.65.0",
+
     "@vitejs/plugin-react": "^4.3.1",
 
     "eslint": "^9.9.1",
@@ -51,6 +55,8 @@
   },
 
   "dependencies": {
+
+    "@tanstack/react-router": "^1.65.0",
 
     "padre-ginos": "file:",
 
