@@ -6,7 +6,8 @@ import pluginQuery from "@tanstack/eslint-plugin-query";
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-  js.configs.recommended, {
+  js.configs.recommended,
+  {
     ...reactPlugin.configs.flat.recommended,
     settings: {
       react: {
