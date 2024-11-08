@@ -7,7 +7,7 @@ class ErrorBoundary extends Component {
     return { hasError: true }
   }
   componentDidCatch(error, info) {
-    //send to trackjs
+    
     console.error("ErrorBoundary caught some stupid error", error, info)
   }
 
@@ -26,10 +26,4 @@ class ErrorBoundary extends Component {
   }
 }
 
-ErrorBoundary.getDerivedStateFromError()
-
-const eb = new ErrorBoundary()
-eb.lol();
-
 export default ErrorBoundary;
-
