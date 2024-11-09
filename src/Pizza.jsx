@@ -9,4 +9,3 @@ const Pizza = (props) => {
 }
 
 export default Pizza;
-
